@@ -1,0 +1,37 @@
+Todos: 
+
+Components:
+	1. Display tasks
+	2. Add the tasks
+
+
+State: tasks
+reducer(slice): a function that modifies the state
+store: configuration that config, state and mdoficiation function
+Provider: provides store to the child components
+------------
+const [value,setValue]
+--------------------
+counter
+	counterSlice: that carries counter reducer functions
+todo 
+	todoSlice: that carries todo reducer functions
+
+counterSlice:
+	reducers:
+		1. increment
+		2. decrement
+	
+todoSlice
+	reducers:
+		1. add task
+		2. remove tasks
+
+Store: config	({
+	counter: counterSlice,
+	todo: todoSlice
+})
+
+
+
+dispatch: function that runs and bind reducer function

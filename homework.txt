@@ -1,0 +1,15 @@
+A landing page in which we have 5 different components showing different sections of a landing page
+
+on the top(heading) give a button to toggle dark mode, once the dark mode has change it should reflect to all components. 
+
+---------------------
+Add to cart
+-----------
+A page showing 5 products with image, description, title and price. also have add to cart button
+
+once the button is pressed the product (object form) should added to the cart. 
+
+make a cart page where user can see all the added products also he can remove products from cart. 
+
+Make a seperate component of showing total of the cart(sum of prices of products). and load it seperate in app.js 
+---------------------------------------------
